@@ -4,7 +4,7 @@ ul {
     margin: 0;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: rgb(86, 80, 76);
+    background-color: chocolate;
     color: aliceblue;
     padding: 10px;
 }
@@ -27,6 +27,6 @@ ul {
     justify-content: space-evenly;
     color: white;
     text-align: justify;
-    background-color: rgb(105, 51, 166);
+    background-color: rgb(162, 14, 152);
 }
 
