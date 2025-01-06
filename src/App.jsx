@@ -9,6 +9,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import UseRef from './Components/FunctionalComponent/UseRef';
 import ExamResults from './Components/FunctionalComponent/UseContext';
 import UseMemo from './Components/FunctionalComponent/UseMemo';
+import Signup from './Components/FunctionalComponent/Signup';
+import Login from './Components/FunctionalComponent/Login'
 import UseRefNumber from './Components/FunctionalComponent/UseRefNumber';
 import UseEffectImages from './Components/FunctionalComponent/UseEffectImages';
 
@@ -27,6 +29,8 @@ function App() {
     <Route path='/usecontext' element = {<ExamResults />}/>
     <Route path='/usememo' element = {<UseMemo />}/>
     <Route path='/userefnumber' element = {<UseRefNumber />}/>
+    <Route path='/signup' element = {<Signup />}/>
+    <Route path='/login' element = {<Login />}/>
     <Route path='/useeffectimages' element = {<UseEffectImages />}/>
     </Routes>
     <Footer />
